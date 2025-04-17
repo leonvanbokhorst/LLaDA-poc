@@ -1,0 +1,5 @@
+.venv
+checkpoints
+
+DS_Store
+__pycache__
