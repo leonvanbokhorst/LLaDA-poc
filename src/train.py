@@ -81,7 +81,7 @@ def main() -> None:
     parser.add_argument(
         "--max_seq_len", type=int, default=128, help="Max sequence length"
     )
-    parser.add_argument("--epochs", type=int, default=1, help="Number of epochs")
+    parser.add_argument("--epochs", type=int, default=5, help="Number of epochs")
     parser.add_argument(
         "--learning_rate", type=float, default=5e-5, help="Learning rate"
     )
